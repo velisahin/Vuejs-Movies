@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/Dongle-Regular.ttf);
+}
+@font-face {
+  font-family: "font-2";
+  src: url(../assets/fonts/Dongle-Light.ttf);
+}
+
+$font-1: "font-1", sans-serif;
+$font-2: "font-2", sans-serif;
+
+$color-1: #EAAC8B;
+$color-2: #355070;
+$color-3: #F5CAC3;
+$black: #B56576;
+$white: #F7EDE2;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-1;
+}
+
+body {
+  background: $color-2;
+  color: $white;
+}
+li {
+  list-style: none;
+}
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
